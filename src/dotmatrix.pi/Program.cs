@@ -1,6 +1,17 @@
 ﻿using dotmatrix.lib.Matrix;
 
-using var matrix = new RGBLedMatrix(new RGBLedMatrixOptions { Rows = 64, Cols = 64, ChainLength = 4, HardwareMapping = "adafruit-hat", Parallel = 1 });
+using var matrix = new RGBLedMatrix(new RGBLedMatrixOptions
+{
+    Rows = 64, 
+    Cols = 64, 
+    ChainLength = 4,
+    Parallel = 1,
+    HardwareMapping = "adafruit-hat",
+    GpioSlowdown = 2,
+    LimitRefreshRateHz = 120,
+    Brightness = 50,
+    DisableHardwarePulsing = true
+});
 var canvas = matrix.CreateOffscreenCanvas();
 
 var maxBrightness = matrix.Brightness;
