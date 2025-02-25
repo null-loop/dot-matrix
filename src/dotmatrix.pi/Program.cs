@@ -6,8 +6,7 @@ using var matrix = new RGBLedMatrix(new RGBLedMatrixOptions
     Cols = 64,
     ChainLength = 4,
     Parallel = 1,
-    HardwareMapping = "adafruit-hat",
-    DisableHardwarePulsing = true
+    HardwareMapping = "adafruit-hat"
 });
 var canvas = matrix.CreateOffscreenCanvas();
 
