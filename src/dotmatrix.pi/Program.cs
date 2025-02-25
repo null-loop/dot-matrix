@@ -2,12 +2,11 @@
 
 using var matrix = new RGBLedMatrix(new RGBLedMatrixOptions
 {
-    Rows = 64, 
-    Cols = 64, 
+    Rows = 64,
+    Cols = 64,
     ChainLength = 4,
     Parallel = 1,
     HardwareMapping = "adafruit-hat",
-    GpioSlowdown = 2,
     DisableHardwarePulsing = true
 });
 var canvas = matrix.CreateOffscreenCanvas();
