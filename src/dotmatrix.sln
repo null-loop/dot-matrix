@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotmatrix.lib", "dotmatrix.lib\dotmatrix.lib.csproj", "{F7D23313-B730-4892-94B2-C998ACB643E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotmatrix.pi", "dotmatrix.pi\dotmatrix.pi.csproj", "{F4E6D9A8-57F2-4E83-8623-652D53B158F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D23313-B730-4892-94B2-C998ACB643E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D23313-B730-4892-94B2-C998ACB643E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D23313-B730-4892-94B2-C998ACB643E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D23313-B730-4892-94B2-C998ACB643E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E6D9A8-57F2-4E83-8623-652D53B158F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E6D9A8-57F2-4E83-8623-652D53B158F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E6D9A8-57F2-4E83-8623-652D53B158F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E6D9A8-57F2-4E83-8623-652D53B158F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
