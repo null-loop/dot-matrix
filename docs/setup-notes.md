@@ -9,3 +9,8 @@ Had to set `PATH` and `DOTNET_ROOT` env vars by hand.
 ```
 apt-get install libicu-dev
 ```
+
+From the RGB `lib` dir
+```
+cp librgbmatrix.so.1 /root/.dotnet/shared/Microsoft.NETCore.App/8.0.13
+```
