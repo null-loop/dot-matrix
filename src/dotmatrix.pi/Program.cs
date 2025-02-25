@@ -8,8 +8,6 @@ using var matrix = new RGBLedMatrix(new RGBLedMatrixOptions
     Parallel = 1,
     HardwareMapping = "adafruit-hat",
     GpioSlowdown = 2,
-    LimitRefreshRateHz = 120,
-    Brightness = 50,
     DisableHardwarePulsing = true
 });
 var canvas = matrix.CreateOffscreenCanvas();
